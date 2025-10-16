@@ -3,9 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
 </head>
 <body>
-    
+    <form action="">
+        <fieldset>
+<label for="">Name</label>
+<input type="text"placeholder="Leonardo"><br><br>
+
+<label for="">Mobile</label>
+<input type="tel" placeholder="00700007" minlength="10" maxlength="10"><br><br>
+
+<label for="">Email</label>
+<input type="email" placeholder="Enter Mail"> <br><br>
+
+<label for="">Gender</label>
+<input type="radio" name="gender" checked>Male
+<input type="radio" name="gender">Female
+<label for="">Age</label>
+<input type="number" name="" id=""><br><br>
+
+<label for="">DOJ</label>
+<input type="date" name="" id="">
+
+<label for="">Distance</label>
+<input type="range" name="" id="" value="30"> <br><br>
+
+<label for="">Subject</label>
+<input type="checkbox" name="" id="" checked>Math
+<input type="checkbox" name="" id="">DS
+<input type="checkbox" name="" id="">WD<br><br>
+
+<label for="">Branch</label>
+<input list="branch">
+<datalist id="branch">
+<option value="CSE"></option>
+<option value="ECE"></option>
+<option value="AI/ML"></option>
+</datalist><br><br>
+
+<label for="">City</label>
+<select name="" id="">
+    <option value="">GZB</option>
+    <option value="">DEL</option>
+    <option value="">NOIDA</option>
+</select><br><br>
+
+<label for="">Address</label>
+<textarea name="" id="" cols="50" rows="15"></textarea><br><br>
+
+<button>Verify Me</button>
+<input type="button" value="Unlock Me">
+<input type="reset" value="Reset Form">
+<input type="submit" value="Submit Form">
+</fieldset>
+
+</form>
+
+
+
 </body>
 </html>
