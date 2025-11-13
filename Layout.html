@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <style>
+        /* img{
+            border: 10px;
+            border-style: groove;
+            float: left;
+        }
+        p{
+            color: aqua;
+        }
+
+        .para{
+            color: black;
+        } */
+
+        main{
+            width: 1000px;
+            height: 450px;
+            background-color: aquamarine;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: space-between;
+            /* align-items: last baseline; */
+            align-items: center;
+
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+            border-color: black;
+            border-style: solid;
+            border-radius: 2px;
+        }
+
+        section{
+            width: 1000px;
+            height: 450px;
+            background-color: rgb(134, 238, 238);
+            margin: 10px auto;
+            border-radius: 2px;
+            border-color: black;
+        }
+
+        #left{
+            flex-grow: 1;
+            background-color: rgb(194, 112, 35);
+            border-radius: 2px;
+            border-color: black;
+        }
+
+        #right{
+            flex-grow: 1;
+            background-color: rgb(37, 223, 49);
+            border-radius: 2px;
+            border-color: black;
+        }
+        
+    </style>
+
+    
+</head>
+<body>
+    <!-- <img src="Kakashi Hatake Drawing.jpg" alt="moon" height="450px">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam odit alias delectus ipsam ut qui nesciunt cum, consectetur vel consequatur minima aperiam hic, excepturi distinctio molestias incidunt est corporis?
+       <p class="para">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi dolorem aliquam quas consequuntur tempore molestias, error vel. Porro quod ea totam praesentium libero. Porro repellendus enim, asperiores harum quibusdam libero.
+       </p>
+    </p> -->
+
+    <main>
+        <div class="box" align="center">1</div>
+        <div class="box" align="center">2</div>
+        <div class="box" align="center">3</div>
+        <div class="box" align="center">4</div>
+        <div class="box" align="center">5</div>
+        <div class="box" align="center">6</div>
+        <div class="box" align="center">7</div>
+        <div class="box" align="center">8</div>
+    </main>
+
+    <section>
+        <div id="left" align="center"><h1><i>TOP HEAD</i></h1></div> <hr color="black">
+        <div id="right" align="center"><h1><i>MAIN HEAD</i></h1></div>
+    </section>
+
+    
+
+    
+</body>
+</html>
