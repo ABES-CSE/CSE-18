@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 20px;
+        }
+
+        .main-box {
+            border: 3px solid black;
+            padding: 10px;
+        }
+
+        .header {
+            background: #d3d3d3;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .header span {
+            color: red;
+            font-weight: bold;
+        }
+
+        .menu-inline-block a {
+            display: inline-block;
+            background: #add8e6;
+            padding: 10px 15px;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            border: 1px solid #7aaec6;
+        }
+
+        .menu-float {
+            margin-top: 10px;
+        }
+
+        .menu-float a {
+            float: left;
+            background: #b2f2bb;
+            padding: 10px 15px;
+            margin: 5px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            border: 1px solid #6ecf7a;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-box">
+
+    <div class="header">
+        My <span>Website</span> Navigation
+    </div>
+
+    <div class="menu-inline-block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="menu-float">
+        <a href="#">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Messages</a>
+        <a href="#">Logout</a>
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+</body>
+</html>
